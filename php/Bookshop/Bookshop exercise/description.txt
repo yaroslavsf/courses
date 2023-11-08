@@ -1,0 +1,10 @@
+admin:
+login-admin@gmail.com
+password-123
+
+moder:
+login-moder@gmail.com
+password-123
+
+
+все кнопки, которые имеют серый цвет - не работают
