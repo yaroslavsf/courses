@@ -1,2 +1,2 @@
-# Basics-of-Cpp
-Basics of C/C++
+Dates:
+18.12.2020 - 29.06.2021
