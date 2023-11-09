@@ -1,0 +1,4 @@
+1. C помощью AJAX достать посты: https://jsonplaceholder.typicode.com/posts
+2. Реализовать поиск постов с помощтю AJAX: https://jsonplaceholder.typicode.com/posts?title_like=sunt
+3. Использовать bootstrap в качестве UI фреймворка.
+DOC: https://github.com/typicode/json-server

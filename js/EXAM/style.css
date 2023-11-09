@@ -1,0 +1,83 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+th {   
+    height:4vh;
+    text-align: right;
+    width: 7%;
+    padding-right: 4vh;
+    border-top: 1px solid #dddddd;
+	border-collapse: collapse;
+    color: rgb(0,100,150);
+   
+}
+
+th:hover {
+    background-color:rgb(240, 240, 240);
+}
+
+td {
+    height:4vh;
+    padding-right: 4vh;
+    text-align: right;
+    border-top: 1px solid #dddddd;
+	border-collapse: collapse;
+}
+
+img{ 
+    width: 1.5em;
+    vertical-align:bottom;
+}
+
+#team{
+    color:black;
+    min-width: 150px;
+    width: unset;
+   
+}
+
+#place {
+    color: orangered;
+    width: 4% !important;
+} 
+
+#score:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+.table {
+    width: 100%;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+	border-collapse: collapse;
+   
+}
+
+.matches{
+    border-left: 1px solid #dddddd;
+	border-collapse: collapse;
+}
+
+.place{
+    text-align: left;
+    padding-left: 2vh;
+}
+
+.team {
+    text-align:left  !important;
+    color: rgb(0,100,150);
+    padding-left: 1vh;
+    font-weight: 600;
+}
+
+.color-score {
+    background-color:whitesmoke;
+}
+
+.text {
+    margin-top: 1.5vh;
+}
+
+
