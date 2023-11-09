@@ -1,6 +1,8 @@
 ## About
 The programming courses that I was assisting in Kherson(Ukraine) on period 18.12.2020 - 23.02.2022.
 
+> Most pdf files that describe HW are in ukr/rus 
+
 ## Topics
 - C++
 - C#
