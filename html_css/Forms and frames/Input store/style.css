@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.textfield-list {
+  display: flex;
+  justify-content: start;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  padding: 45px;
+}
+
+.container-item {
+  margin-bottom: 60px;
+}
+
+.container-item:last-child{
+  margin-bottom: 0;
+}
+
+.textfield-list input {
+  margin-right: 5px;
+  width: 250px;
+  height: 40px;
+}
+
+.switch-list {
+  display: flex;
+}
+
+.switch-list-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.switch-list-item span {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.radio-block {
+  font-size: 18px;
+}
+
+.radio-btn-container span {
+  font-size: 18px;
+}

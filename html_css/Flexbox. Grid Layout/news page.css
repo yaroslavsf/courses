@@ -1,0 +1,220 @@
+@media screen and (min-width:600px)
+{
+  * {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    font-family:sans-serif;
+    color:#828180;
+ }
+    
+  
+
+  .container {
+    display: flex; 
+   
+    flex-flow: column wrap;
+    align-content: space-between;
+  height: 1600px;
+  
+
+  background-color: #B5D7E4;
+  }
+  
+  .card {
+    
+    width: 32%;
+    margin-bottom: 2%; /* Optional */
+   
+  
+}
+
+/*  Перегруппировываем элементы в 3 ряда */
+.card:nth-child(3n+1) { order: 1; }
+.card:nth-child(3n+2) { order: 2; }
+.card:nth-child(3n)   { order: 3; }
+
+  /* Новые колонки разделители */
+.container::before,
+.container::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
+}
+
+.grey {
+
+background-color: #C3C3C3;
+margin-top: 0px;
+
+
+}
+
+.one,.eight,.nine {
+  height: 150px;
+  
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+ 
+  padding-top: 60px;} 
+
+.two, .three,.seven{
+  height: 100px;
+ 
+  vertical-align: middle;
+ 
+  padding-top: 40px;
+ 
+}
+
+.four{
+  height: 220px;
+  padding-top: 100px;
+}
+.five{
+  height: 230px;
+  padding-top: 105px;
+}
+.six{
+  height: 350px;
+  padding-top: 170px;
+}
+
+
+
+.h {
+  text-align: center;
+    vertical-align: middle;  
+   
+}
+
+.T1{
+  color:black;
+  font-weight: bold;
+  padding-bottom: -10px;
+  padding-top: -10px;
+  padding-left: 5px;
+}
+
+.p{
+  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.p1{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+  
+  }
+
+  @media screen and (max-width:600px)
+  {
+    * {
+      
+      padding: 0;
+      
+      margin-top: 40px;
+      font-family:sans-serif;
+      color:#828180;
+      
+      
+    }
+  
+    .container {
+     
+      flex-flow: column wrap;
+      align-content: space-between;
+    height: 3800px;
+    
+    padding-top: 10px;
+    
+  
+    background-color: #B5D7E4;
+    }
+    
+    .card {
+     
+      margin-bottom: 2%; /* Optional */
+     
+    
+  }
+  
+  /*  Перегруппировываем элементы в 3 ряда */
+  .card:nth-child(3n+1) { order: 1; }
+  .card:nth-child(3n+2) { order: 2; }
+  .card:nth-child(3n)   { order: 3; }
+  
+  
+  
+  .grey {
+ 
+  background-color: #C3C3C3;
+  margin-top: 0px;
+
+  
+  }
+  
+  .one,.eight,.nine {
+    height: 150px;
+  
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    
+    padding-top: 60px;} 
+  
+  .two, .three,.seven{
+    height: 100px;
+
+    vertical-align: middle;
+ 
+    padding-top: 40px;
+   
+  }
+  
+  .four{
+    height: 220px;
+    padding-top: 100px;
+  }
+  .five{
+    height: 230px;
+    padding-top: 105px;
+  }
+  .six{
+    height: 350px;
+    padding-top: 170px;
+  }
+  
+  
+  
+  .h {
+    text-align: center;
+
+      vertical-align: middle;  
+     
+  }
+  
+  .T1{
+    color:black;
+    font-weight: bold;
+    padding-bottom: -10px;
+    padding-top: -10px;
+    padding-left: 5px;
+  }
+  
+  .p{
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .p1{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+    
+    
+  }
+  

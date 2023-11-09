@@ -1,0 +1,8 @@
+/* 600px - 900px */
+.container-header {
+  grid-template-columns: 1fr;
+}
+
+.container-header .personal-details-form h2 {
+  margin-top: 40px;
+}

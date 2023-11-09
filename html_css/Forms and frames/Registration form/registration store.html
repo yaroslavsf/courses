@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./media/medium-screen.css" media="screen and (min-width: 600px) and (max-width: 900px)">
+  <link rel="stylesheet" href="./media/small-screen.css" media="screen and (max-width: 600px)">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="container-header">
+        <form class="registration-form">
+          <h2>Registration form</h2>
+          <label for="">
+            <img src="./icons/username.png" alt="username-icon">
+            <input type="text" class="custom-input" placeholder="Username">
+          </label>
+          <label for="">
+            <img src="./icons/email.png" alt="email-icon">
+            <input type="text" class="custom-input" placeholder="Email address">
+          </label>
+          <div class="registration-form-item">
+            <img src="./icons/pswd.png" alt="password-icon">
+            <input type="password" class="custom-input" placeholder="Password">
+            <input type="password"  class="custom-input" placeholder="Confirm password">
+          </div>
+          <div class="only-small">
+            <input type="password"  class="custom-input small-visible" placeholder="Confirm password">
+          </div>
+        </form>
+        <form class="personal-details-form">
+          <h2>Personal details</h2>
+          <div class="personal-details-form-item">
+            <input type="text" class="custom-input" placeholder="First name">
+            <input type="text" class="custom-input" placeholder="Last name">
+          </div>
+          <div class="personal-details-form-item">
+            <select name="" id="" class="custom-input gender">
+              <option value="Male" selected >Male</option>
+              <option value="Female">Female</option>
+            </select>
+            <input type="date" class="custom-input">
+          </div>
+        </form>
+      </div>
+      <div class="container-footer">
+        <label for="">
+          <input type="checkbox" name="" id="">
+          I want to receive news and special offers
+        </label>
+        <label for="">
+          <input type="checkbox" name="" id="">
+          I agree with the Terms and Conditions
+        </label>
+      </div>
+      <hr>
+      <button class="submit-btn">Submit</button>
+    </div>
+  </div>
+</body>
+
+</html>

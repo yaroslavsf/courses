@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="lib.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="container-item">
+        <h2>Inputs</h2>
+        <div class="textfield-list">
+          <input type="text" placeholder="Enter some text" class="untouched">
+          <input type="text" placeholder="Enter some text" value="valid text" class="valid">
+          <input type="text" placeholder="Enter some text" value="invalid text" class="invalid">
+        </div>
+      </div>
+      <div class="container-item">
+        <h2>Check boxes</h2>
+        <div class="switch-list">
+         
+          <div class="switch-list-item">
+            <label class="switch">
+              <input type="checkbox" checked>
+              <span class="slider"></span>
+            </label>
+            <span>Subscribe</span>
+          </div>
+        
+          <div class="switch-list-item">
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider"></span>
+            </label>
+            <span>Subscribe</span>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <h2>Radio buttons</h2>
+        <div class="radio-btn-container">
+          <span>Gender: </span>
+
+          <label class="radio-block"> Male
+            <input type="checkbox" checked>
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="radio-block"> Female
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="container-item">
+        <h2>Buttons</h2>
+        <div class="btn-list">
+          <button class="btn active">Active</button>
+          <button class="btn hover">Hover</button>
+          <button class="btn danger">Danger</button>
+          <button class="btn hover-second">Hover</button>
+          <button class="btn disabled">Disabled</button>
+          <button class="btn rounded active">+</button>
+          <button class="btn rounded danger">-</button>
+        </div>
+      </div>
+
+      <div class="container-item">
+        <h2>Text area</h2>
+        <textarea class="content-box">Enter some text...</textarea>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

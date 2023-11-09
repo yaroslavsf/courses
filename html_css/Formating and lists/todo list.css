@@ -1,0 +1,22 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #00FFFF;
+    font-size: 18px;
+  
+}
+x li {
+    background: #e2e2e2;
+    text-decoration: line-through;
+}
+z li 
+{
+    background: #40E0D0;
+}

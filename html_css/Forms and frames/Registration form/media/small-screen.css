@@ -1,0 +1,37 @@
+/* < 600px */
+
+.container-header {
+  grid-template-columns: 1fr;
+}
+
+.small-visible {
+  display: block;
+}
+
+.registration-form-item input[type="password"]:last-of-type {
+  display: none;
+}
+
+.registration-form-item input[type="password"]:first-of-type {
+  margin-right: 0;
+}
+
+.only-small {
+  margin-left: 38px;
+}
+
+.personal-details-form {
+  margin-top: 80px;
+}
+
+.personal-details-form > * {
+  flex-direction: column;
+}
+
+.personal-details-form-item:first-child {
+  margin-bottom: 30px;
+}
+
+.personal-details-form-item > *:not(:last-child) {
+  margin-bottom: 30px;
+}

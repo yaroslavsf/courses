@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Arial', sans-serif;
+  }
+  
+  /* HEADINGS */
+  
+  h1, p, h3 {
+    color:#000;
+    /* text-align: center; */
+    line-height: 1.3;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+  }
+  
+  h2 {
+    color: #000;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+  h3{
+    font-size: 0.8rem;
+  }
+  
+  /* BASIC SETUP */
+  
+  .page-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nav-wrapper {
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    /* background-color: #fff; */
+  }
+  
+
+  
+  /* NAVIGATION */
+  
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    height: 60px;
+    overflow: hidden;
+    background-color: #F3C343;
+    margin-top: 0px;
+  }
+  
+  .navbar img {
+    height: 60px;
+    width: auto;
+    justify-self: start;
+    margin-left: 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-self: end;
+    
+  }
+  
+  .nav-item a {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+  }
+  
+  .nav-item a:hover {
+    color: #3498db;
+  }
+  
+  /* SECTIONS */
+  
+  .headline {
+    width: 100%;
+    height: 60vh;
+    min-height: 350px;
+   
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding-left: 50%;
+    padding-right: 10%;
+    /* background-color: burlywood; */
+    background-image: url('./photos/tmb_239201_753589.jpg');
+
+  }
+  .headline div {
+    text-align: start;
+    /* float: right; */
+  }
+.headline div h2{
+    text-align: start;
+
+}
+.b1{
+    background:black; /* Синий цвет фона */ 
+    color: white; /* Белые буквы */ 
+    font-size: 9pt; /* Размер шрифта в пунктах */
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 20px;
+    height: 50px;
+    width: 170px;
+}
+
+.text{
+    width: 100%;
+    height: 20vh;
+    min-height: 100px;
+    padding-left: 5%;
+    padding-right: 50%;
+    margin-top: 10vh;
+    text-align: start;
+margin-bottom: 10vh;
+
+}
+.text h2 {
+    text-align: start;
+}
+
+  
+  .features {
+    width: 100%;
+    height: auto;
+    /* background-color: #f1f1f1; */
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-around;
+    /* justify-content: center; */
+    border-top: gray dotted;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+  }
+  
+  .feature-container {
+    flex-basis: 23%;
+    margin-top: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .feature-container p {
+    color: #000;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+  
+  .feature-container img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+    justify-content: center;
+   
+    /* padding-left:20px; */
+  }
+
+
+
+  .grid {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto auto; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    /* border-radius: 5px; */
+    background-color:#E1ECF3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.3em; */
+    border-radius: 3px;
+    background-color:#E1ECF3;
+    /* color: #ffffff; */
+    font-size: 130%;
+    font-weight: bold;
+}
+.grid div img{
+    max-width: 350px;
+}
+
+.item-1 {
+    grid-column: 1;
+    grid-row: 1 / 6;
+    align-self: stretch;
+}
+.item-2 {
+    grid-column: 2;
+    grid-row: 1 / 6;
+    align-self: stretch;
+}
+.item-4 {
+    grid-column: 5;
+    grid-row: 4/ 6;
+    align-self: stretch;
+}
+.item-3 {
+    grid-column: 3/6;
+    grid-row: 1 / 4;
+    align-self: stretch;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.item-3 div span h2{
+    margin-top: 30px;
+    text-align: start;
+
+}
+.item-3 div span h1{
+    margin-bottom: 30px;
+
+}
+
+.last{
+   background-color: #F3C243;
+
+
+}
+  
+.last h2{
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* MOBILE MENU & ANIMATION */
+  
+  .menu-toggle .bar{
+    width: 25px;
+    height: 3px;
+    background-color: #3f3f3f;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-toggle {
+    justify-self: end;
+    margin-right: 25px;
+    display: none;
+  }
+  
+  .menu-toggle:hover{
+    cursor: pointer;
+  }
+  
+  #mobile-menu.is-active .bar:nth-child(2){
+    opacity: 0;
+  }
+  
+  #mobile-menu.is-active .bar:nth-child(1){
+    -webkit-transform: translateY(8px) rotate(45deg);
+    -ms-transform: translateY(8px) rotate(45deg);
+    -o-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  #mobile-menu.is-active .bar:nth-child(3){
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    -ms-transform: translateY(-8px) rotate(-45deg);
+    -o-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  
+   
+  
+   @media only screen and (max-width: 720px) { 
+    .features {
+      flex-direction: column;
+      padding: 50px;
+    }
+    
+    /* MOBILE HEADINGS */
+    
+    h1 {
+      font-size: 1.3rem;
+    }
+    
+    h2 {
+      font-size: 1rem;
+    }
+    
+    p {
+      font-size: 0.8rem;
+    } 
+    
+    /* MOBILE NAVIGATION */
+       
+    .navbar ul {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      justify-content: start;
+      top: 55px;
+      background-color: #fff;
+      width: 100%;
+      height: calc(100vh - 55px);
+      transform: translate(-101%);
+      text-align: center;
+      overflow: hidden;
+    }
+    
+    .navbar li {
+      padding: 15px;
+    }
+    
+    .navbar li:first-child {
+      margin-top: 50px;
+    }
+    
+    .navbar li a {
+      font-size: 1rem;
+    } 
+     
+     .menu-toggle, .bar {
+      display: block;
+      cursor: pointer;
+    }
+    
+    .mobile-nav {
+    transform: translate(0%)!important;
+  }
+    
+    /* SECTIONS */
+    
+     .headline {
+      height: 20vh;
+    }
+      
+    .feature-container p {
+      margin-bottom: 25px;
+    }
+    
+    .feature-container {
+      margin-top: 20px;
+    }
+    
+    .feature-container:nth-child(2) {
+      order: -1;
+    } 
+
+    .grid{
+        display: none;
+    }
+    
+}
